@@ -1,0 +1,10 @@
+https://docs.bcbi.brown.edu/bidss/programming/unix/mimic/
+
+Exercise 1: grep "ENGL" ADMISSIONS.csv | wc
+
+- grep pulls the phrase ENGL from ADMISSION.csv file, then we use | wc to count the lines that have ENGL in that csv file
+
+
+Exercise 2: cut -f9 -d',' ADMISSIONS.csv | sort | uniq -c
+
+use cut to select a portion, we are selceting header 9 which corosponds to discharge loacation. Then we sort, ad use uniq to sort out th uniq occurance of lines in 9
